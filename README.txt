@@ -2,4 +2,4 @@ Repositório para a disciplina de SI1
 
 =======================
 
-Criado na disciplina de SI1 2014.2 UFCG
+Criado na disciplina de SI1 2014.2 UFCG. Utilização de uma nova ferramenta. 
