@@ -1,15 +1,26 @@
 body {
     background-color: #6868A4;
+	width: 100%;
+	overflow-x: hidden;
 }
 
-h1, h2, p{
+h1, h2, p {
     color: white;
 }
 
+label {
+	width: 20%;
+	text-align: left;
+	color:	white;
+}
 .conteudo {
     margin-top: 10%;
 }
 
 .margem5 {
     margin-top: 5%;
+}
+
+.elemento-central {
+	margin-top: 10%;
 }

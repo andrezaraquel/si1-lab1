@@ -5,22 +5,29 @@
 	<title>SI1 - UFCG</title>
 	<link rel="icon" href="img/coracao.png">
 	<link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+	<link href="css/estiloSimples.css" rel="stylesheet">
 	<script src="jquery-2.1.1.min.js"></script>
 	<script src="js/bootstrap.min.js"></script>	
 </head>
 
 <body>
-	<h1>Cadastro da Disciplina de SI1 - UFCG</h1>
-	<div>
+<h1 align="center">Cadastro da Disciplina de SI1 - UFCG</h1>
+<div align="center" class="row elemento-central">
+	<div class="col-md-2 col-lg-offset-5">
 		<form method="get" action="agradecimento.html">
-			<label>Matrícula</label>
-			<input type="text" name="matricula" required placeholder="Insira sua matrícula" maxlength="9"/>
-			
-			<label>Nome</label>
-			<input type="text" name="nome" required placeholder="Insira seu nome"/>
-			
-			<input type="submit" class="btn" value="Finalizar Cadastro"/>
+			<div>
+				<label class="col-md-2">Matrícula</label>
+				<input type="text" name="matricula" required placeholder="Insira sua matrícula" maxlength="9"/>
+			</div >
+			<div class="margem5">
+				<label class="col-md-2">Nome</label>
+				<input type="text" name="nome" required placeholder="Insira seu nome"/>
+			</div>
+			<div class="margem5">
+				<input type="submit" class="btn btn-default margem5" value="Finalizar Cadastro"/>
+			<div>
 		</form>
 	</div>
+</div>
 </body>
 </html>
