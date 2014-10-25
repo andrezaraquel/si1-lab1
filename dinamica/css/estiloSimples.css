@@ -1,0 +1,82 @@
+body {
+    background-color: #6868A4;
+	width: 100%;
+	overflow-x: hidden;
+}
+
+h1, h2, p, ol {
+    color: white;
+}
+
+table{
+	width: 80%;
+}
+
+table, th, td{
+	border-style: inset;
+	text-align: center;
+	margin-top: 10%;
+	font-family: inherit;
+}
+
+label {
+	width: 20%;
+	text-align: left;
+	color:	white;
+}
+
+.th-excluir {
+	width: 23px !important;
+}
+
+.th-acoes{
+	width: 46px !important;
+	height: 23px !important;
+}
+
+.img-excluir{
+	background-image: url("../img/excluir.png");
+	background-repeat:no-repeat;
+	background-size:100% 100%;
+}
+
+.img-mover, .img-excluir{
+	width: 23px !important;
+	height: 23px !important;
+}
+
+.img-mover{
+	background-image: url("../img/mover.png");
+	background-repeat:no-repeat;
+	background-size:100% 100%;	
+}
+
+.divTabelas{
+	background-color: white;
+	height: 300px;
+	border-radius: 1%;
+	margin-top: 2%;
+	float: left;
+}
+
+.div-inputs{
+	margin-top: 2%;
+	margin-left: 2%;
+}
+
+.conteudo {
+    margin-top: 10%;
+}
+
+.margem5 {
+    margin-top: 5%;
+}
+
+.elemento-central {
+	margin-top: 10%;
+}
+
+.button-voltar{
+	float: left;
+	margin-top: 2%;
+}

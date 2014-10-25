@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="UTF-8">
+	<title>SI1 - UFCG</title>
+	<link rel="icon" href="img/coracao.png">	
+	
+	<script type="text/javascript" src="js/jquery-2.1.1.min.js"></script>
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/tabelasDinamicas.js"></script>
+	<link href="css/bootstrap.min.css" rel="stylesheet" media="screen">	
+	<link href="css/estiloSimples.css" rel="stylesheet">	
+</head>
+
+<body>
+
+<h1 align="center">Agradecemos por seu cadastro!</h1>
+
+<div class="row">
+	<div class="divTabelas col-md-8 col-lg-offset-2">
+		<div class="div-inputs col-md-6">
+			<input class="input-tema col-md-7" maxlength="30" type="text" name="tema" value="" placeholder="Insira um novo tema a aprender">
+			<input class="criarTema col-md-3 col-lg-offset-1" type="button" value="Incluir Tema">
+		</div>
+		<div class="col-md-12">
+			<div class="col-md-6 tamanho-maximo-fixo" align="left">		
+				<table id="tabelaTemasAAprender">
+					<thead>
+					<tr><th colspan="3">Tabela de Temas a Aprender</th></tr>
+					<tr><th>Nome do Tema</th><th colspan="2" class="th-acoes">Ações</th></tr>
+					<thead>
+						
+					<tbody>
+					</tbody>
+					</tbody>
+				</table>
+				
+			</div>
+		
+			<div class="col-md-6 tamanho-maximo-fixo" align="right" >		
+				<table id="tabelaDeTemasAprendidos">
+					<thead>
+					<tr><th colspan="2">Tabela de Temas Aprendidos</th></tr>
+					<tr><th>Nome do Tema</th><th colspan="2" class="th-excluir"></th></tr>
+					<thead>
+						
+					<tbody>				
+					</tbody>
+					</tbody>
+				</table>
+				
+			</div>
+		</div>
+	</div>
+
+	<div align="center" class="col-md-12 button-voltar">
+		<button type="button" class="btn" onclick="location.href='index.html'">Voltar para o início</button>
+	</div>
+</div>
+</body>
+</html>
